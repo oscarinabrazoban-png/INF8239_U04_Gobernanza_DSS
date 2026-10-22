@@ -1,5 +1,6 @@
+
 stakeholder,benefit,harm,power,participation
-Affected person,REPLACE,REPLACE,low,REPLACE
-Operator,REPLACE,REPLACE,medium,REPLACE
-Institutional owner,REPLACE,REPLACE,high,REPLACE
-Data team,REPLACE,REPLACE,medium,REPLACE
+Affected person,Mayor atencion a necesidades de su comunidad,Exclusion o retraso en la asignacion de recursos por una clasificacion incorrecta,low,Consultas comunitarias y mecanismo de apelacion con revision humana
+Operator,Apoyo para organizar y justificar prioridades de revision,Dependencia excesiva de recomendaciones o interpretacion incorrecta de resultados,medium,Capacitacion y validacion manual de recomendaciones antes de actuar
+Institutional owner,Mejor trazabilidad y planificacion de recursos preventivos,Decisiones injustas y perdida de confianza institucional,high,Supervision periodica y aprobacion documentada de decisiones
+Data team,Identificacion de problemas de calidad y mejora del sistema,Responsabilidad por errores de datos o sesgos no detectados,medium,Auditorias de calidad y monitoreo de indicadores de riesgo

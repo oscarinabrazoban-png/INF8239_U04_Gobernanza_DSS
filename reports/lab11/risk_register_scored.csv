@@ -1,0 +1,9 @@
+id,scenario,affected,likelihood_1_4,impact_1_4,control,owner,evidence,residual,priority
+R02,Datos incompletos generan recomendaciones incorrectas,Comunidades y operadores,3,3,Validar integridad y calidad antes de utilizar los datos,Data team,Reporte de calidad y registro de correcciones,medium,9
+R01,Asignacion injusta de prioridades por sesgos territoriales,Comunidades vulnerables,2,4,Auditar resultados por territorio y exigir revision humana,Data team,Informe de auditoria territorial y acta de revision,high,8
+R07,El sistema se utiliza para negar servicios o sancionar territorios,Comunidades vulnerables,2,4,Prohibir usos fuera de alcance y suspender operaciones ante incumplimientos,Institutional owner,Politica de usos prohibidos y registro de incidentes,high,8
+R03,La recomendacion automatizada sustituye el juicio profesional,Comunidades evaluadas,2,3,Exigir aprobacion humana documentada para cada decision,Operator,Registro de recomendaciones y decisiones finales,medium,6
+R06,Personal interpreta incorrectamente las puntuaciones de riesgo,Operadores y comunidades,3,2,Capacitar usuarios y documentar limites de las recomendaciones,Operator,Registro de capacitaciones y guia de interpretacion,medium,6
+R04,Divulgacion no autorizada de informacion sensible,Personas y comunidades evaluadas,1,4,Restringir accesos y aplicar minimizacion de datos,Institutional owner,Registro de permisos y auditoria de accesos,medium,4
+R05,Las comunidades desconocen como solicitar una revision,Personas afectadas,2,2,Publicar procedimiento accesible de apelacion y respuesta,Institutional owner,Procedimiento de apelacion y registro de solicitudes,low,4
+R08,Ausencia de seguimiento permite mantener errores del sistema,Comunidades y equipo institucional,1,3,Revisar periodicamente indicadores y registrar incidentes,Data team,Informe de monitoreo y bitacora de incidentes,low,3

@@ -1,9 +1,18 @@
-purpose: REPLACE
-assisted_decision: REPLACE
-users: REPLACE
-affected_population: REPLACE
-owner: REPLACE
-non_predictive_alternative: REPLACE
-out_of_scope_use: REPLACE
-withdrawal_condition: REPLACE
-appeal_mechanism: REPLACE
+
+purpose: "Apoyar la identificación de territorios que requieren una revisión prioritaria de necesidades preventivas, utilizando datos sintéticos con fines académicos."
+
+assisted_decision: "Recomendar el orden de revisión de territorios para orientar el análisis y la planificación de recursos, sin adoptar decisiones automáticas."
+
+users: "Personal técnico de análisis territorial, planificación y responsables de programas preventivos."
+
+affected_population: "Personas y comunidades de los territorios analizados, especialmente aquellas que podrían experimentar retrasos o cambios en la priorización de recursos."
+
+owner: "Equipo responsable de planificación y gestión del sistema de apoyo a decisiones."
+
+non_predictive_alternative: "Aplicar criterios públicos de necesidad territorial mediante una matriz de indicadores descriptivos, complementada con revisión técnica y consultas comunitarias."
+
+out_of_scope_use: "Prohibido utilizar el sistema para negar servicios, imponer sanciones, clasificar personas individualmente o asignar recursos sin validación humana."
+
+withdrawal_condition: "Suspender el uso del sistema si se identifican daños significativos, discriminación sistemática, datos no confiables o ausencia de mecanismos efectivos de revisión humana."
+
+appeal_mechanism: "Establecer un procedimiento de revisión humana mediante el cual las comunidades o sus representantes puedan solicitar la reconsideración de una recomendación, presentar evidencias y recibir una respuesta documentada."
