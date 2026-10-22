@@ -1,6 +1,12 @@
-priority_harm: REPLACE
-primary_metric: REPLACE
-tolerance: REPLACE
-evidence: REPLACE
-limitation: REPLACE
-recommendation: REPLACE
+
+priority_harm: "Omitir territorios con necesidades prioritarias reales debido a falsos negativos, especialmente cuando el modelo presenta menor sensibilidad en determinados grupos."
+
+primary_metric: "Recall por grupo y brecha de recall entre grupos."
+
+tolerance: "Brecha maxima de recall de 0.10 (10 puntos porcentuales) como criterio preventivo propuesto para solicitar revision humana; no constituye un umbral legal ni una garantia de equidad."
+
+evidence: "La regresion logistica obtuvo accuracy de 0.71875, recall global de 0.71739 y brecha de recall de 0.13764. El arbol obtuvo accuracy de 0.70625, recall global de 0.71739 y brecha de recall de 0.18130. La regresion logistica presento menores brechas de FPR (0.125 frente a 0.16827) y menor tamano serializado (3.56 KB frente a 7.87 KB)."
+
+limitation: "Los datos son sinteticos y la evaluacion incluye 160 registros, con grupos de 101 y 59 observaciones. Algunos subgrupos interseccionales tienen muestras pequenas. Las brechas observadas no demuestran discriminacion causal y no se han estimado intervalos de confianza ni validado el sistema con datos reales."
+
+recommendation: "REVIEW: preferir provisionalmente la regresion logistica para continuar las pruebas academicas, sin autorizar el despliegue operativo. Investigar las brechas por grupo e interseccion, revisar la calidad de los datos, documentar controles y mantener supervision humana antes de reconsiderar la decision."
