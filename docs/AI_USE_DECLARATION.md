@@ -50,3 +50,15 @@ La IA se utilizó como herramienta de asistencia y no como sustituto de la revis
 Los riesgos, controles y decisiones documentados corresponden a un ejercicio académico con datos sintéticos. La aprobación de las pruebas automatizadas no demuestra que el sistema sea adecuado para su implementación en un entorno real.
 
 La responsabilidad por la revisión, interpretación y entrega final del trabajo corresponde a la estudiante.
+
+### Uso de inteligencia artificial en LAB13
+
+Durante el desarrollo del LAB13 se utilizó ChatGPT como herramienta de apoyo para interpretar las instrucciones del laboratorio, estructurar la documentación de gobernanza y orientar la corrección de errores de programación.
+
+Las consultas realizadas estuvieron relacionadas con la interpretación de las puertas de calidad, la elaboración del Model Card, la documentación del Runbook, el análisis del simulacro de incidentes y la corrección de un error `SyntaxError: unterminated f-string literal` en el archivo `simulate_incident.py`.
+
+La intervención de la herramienta consistió en proponer explicaciones, textos técnicos y ajustes de código. La verificación humana incluyó la ejecución del pipeline de gobernanza, la revisión del archivo `deployment_decision.json`, la ejecución del simulacro, la comprobación visual del tablero Streamlit y la ejecución de las pruebas automatizadas.
+
+Como resultado, el pipeline generó un estado técnico `GO` con cinco controles aprobados y las pruebas finalizaron satisfactoriamente (`10 passed`). No obstante, se mantuvo la distinción entre el cumplimiento de umbrales técnicos y la autorización institucional para utilizar el sistema en un entorno real.
+
+La responsabilidad sobre la revisión, ejecución y presentación de los resultados corresponde a la estudiante. Las propuestas de la herramienta se contrastaron con las salidas del proyecto y las instrucciones académicas.
